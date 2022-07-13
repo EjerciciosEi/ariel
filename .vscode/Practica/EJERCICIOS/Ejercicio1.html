@@ -1,13 +1,13 @@
-<script></script>
-    var NumeroDeElemtos = [];
+<script></script> // etiqueta </script> va al final
+    var NumeroDeElemtos = []; // es variable númerica ejemplo let NumeroDeElementos= 5
     NumeroDeElemtos[0] = 0;
     NumeroDeElemtos[1] = 1;
-    for (var i = 2; i < number; i++) {
+    for (var i = 2; i < number; i++) { // es necesario declarar o inicializar la variable number que se puede sustituir por NumeroDeElementos
       NumeroDeElementos[i] = NumeroDeElemtos[i - 2] + NumeroDeElemtos[i - 1];
     }
-    return NumeroDeElemtos;
+    return NumeroDeElemtos; // esta línea se utiliza cuando se crea una función, en este caso no hay una función
     }
-    var f = NumeroDeElemtos(10);
+    var f = NumeroDeElemtos(10); // esta parte va funcionar si se declara como función NumeroDeElementos
     console.log(f);
 
     
